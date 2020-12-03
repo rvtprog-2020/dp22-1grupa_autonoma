@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% set active_page = 'auto' %}
+
+{% block saturs %}
+
+      <h1 class="LSC">LOS SANTOS CUSTOMS</h1>
+
+      <div class="boxAS" >
+        <div class="thingsAS">
+            <a>Pieejamie transporti</a>
+        </div>
+        <div class="boxtextAS">
+        <div class="TitleTextAS">Marka Modelis Gads Nobraukums Cena</div>
+        </div>
+        <div class="Auto01AS">
+            <div class="MarkaAS" id="Auto01Marka">BMW</div>
+            <div class="ModelisAS" id="Auto01Marka">M3</div>  
+            <div class="GadsAS" id="Auto01Gads">2004</div>  
+            <div class="NobraukumsAS" id="Auto01Nobraukums">305km</div>
+            <div class="CenaAS" id="Auto01Cena">15/h</div>  
+            <button type="buttonAS" class="DzestAutoAS" id="DzestAuto">Dzēst auto</button>  
+        </div>
+    </div>
+             <div class="boxaviableAS" >
+                <div class="thingsAS">Pieejamas lokācijas</div>
+                <div class="LokacijaAS" id="Lokacija01"></div> 
+            </div>
+            <button type="button" class="PievienotAS" id="PievienotAuto">Pievienot Auto</button>
+            <button type="button" class="PievienotLokacijuAS" id="PievienotLokaciju">Pievienot Lokāciju</button>
+            <img  class="SmallerLogo" src="https://cdn.discordapp.com/attachments/774239132007792640/781600177038295050/Logo_Smallest.png" >
+{% endblock %}

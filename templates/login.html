@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% set active_page = 'login' %}
+
+{% block saturs %}
+
+      <div class="login">
+          <img src="https://cdn.discordapp.com/attachments/765292327114899457/780517346170503208/preview-escudols_1_1_1.png" alt="login-logo">
+          <!-- <button class="pieslegties">Pieslēgties</button> -->
+          <!-- <a href="/register" {% if active_page == 'login' %} class='active' {% endif %}> -->
+<!-- 
+            
+          <input type="button" value="Reģistrēties" class="registreties" id="sendReg">
+          <input type="email" id="email" name="email" class="email" placeholder="Ievadi e-pastu"><br><br>
+          <input type="password" id="password" name="password" class="password" placeholder="Ievadi paroli"><br><br> -->
+          <input type="email" id="email" name="email" class="email" placeholder="Ievadi e-pastu"><br><br>
+          <input type="password" id="password" name="password" class="password" placeholder="Ievadi paroli">
+
+          <button id="sendLogin" class="pieslegties">Pieslēgties</button>
+          <a href="/register"><input type="button" value="Reģistrēties" class="registreties" id="sendReg"></a>
+          
+      </div>
+
+      <script type="text/javascript" src="{{ url_for('static', filename='js/login.js') }}"></script>
+{% endblock %}

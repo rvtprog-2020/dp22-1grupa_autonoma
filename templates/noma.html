@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% set active_page = 'auto' %}
+
+{% block saturs %}
+      <h1 class="LSC">LOS SANTOS CUSTOMS</h1>
+
+      <div class="boxNN" >
+        <div class="thingsNN">
+                    <a>Pievienot darba vietu</a>
+                    </div>  
+                    <input type="text" class="NomaNameNN" placeholder="Nosaukums" aria-label="Nosaukums" id="NomaName">
+                    <input type="text" class="NomaAdressNN" placeholder="Adrese" aria-label="Adrese" id="NomaAdress">
+
+                    <h2 class="DarbaLaiksNN">Darba Laiks</h2>
+                    <input type="text" class="NomaNoNN" placeholder="No" aria-label="No" id="NomaNo">
+                    <input type="text" class="NomaLidzNN" placeholder="Līdz" aria-label="Līdz" id="NomaLidz">
+
+                    <button type="button" class="PievienotNN" id="Pievienot">Pievienot lokāciju</button>
+                    <button type="button" class="DzestNN" id="Dzest">Dzēst lokāciju</button>
+                </div>
+
+            </div>
+
+            <div class="boxaviablenomaNN" >
+                <div class="thingsNN">Pieejamas lokācijas</div>
+                <div class="LokacijaNN" id="Lokacija01"></div> 
+            </div>
+
+
+            </div>
+                    <img  class="SmallerLogo" src="https://cdn.discordapp.com/attachments/774239132007792640/781600177038295050/Logo_Smallest.png" >
+                </div>
+{% endblock %}
+      

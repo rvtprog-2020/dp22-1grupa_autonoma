@@ -1,0 +1,32 @@
+
+{% extends "layout.html" %}
+
+{% set active_page = 'auto' %}
+
+{% block saturs %}
+
+<h1 class="LSC">LOS SANTOS CUSTOMS</h1>
+
+<div class="boxNA" >
+  <div class="thingsNA">
+              <a>Pievienot transportlīdzekli</a>
+              </div>  
+              <input type="text" class="MarkaNA" placeholder="Marka"  id="Marka">
+              <input type="text" class="ModelisNA" placeholder="Modelis"  id="Modelis">
+              <input type="text" class="GadsNA" placeholder="Gads"  id="Gads">
+              <input type="text" class="StundasLikmeNA" placeholder="Stundas Likme"  id="StundasLikme">
+              <input type="text" class="NobraukumsNA" placeholder="Nobraukums"  id="Nobraukums">
+
+              <button type="button" class="PievienotNA" id="Pievienot">Pievienot Pievienot Auto</button>
+          </div>
+
+          <div class="boxaviablenomaNA" >
+              <div class="thingsNA">Pieejamas lokācijas</div>
+              <div class="LokacijaNA" id="Lokacija01"></div> 
+          </div>
+
+
+
+      </div>
+              <img  class="SmallerLogo" src="https://cdn.discordapp.com/attachments/774239132007792640/781600177038295050/Logo_Smallest.png" >
+{% endblock %}

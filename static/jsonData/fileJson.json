@@ -1,0 +1,81 @@
+{
+    "USERS": [
+        {
+            "vards": "gabriels",
+            "uzvards": "Liedeskrasti\u0146\u0161",
+            "pkods": "231232",
+            "telnr": "20330587",
+            "email": "testinboxs@inbox.lv",
+            "password": "gabriels"
+        },
+        {
+            "vards": "asd",
+            "uzvards": "asd",
+            "pkods": "asd",
+            "telnr": "asd",
+            "email": "asd@asd.lv",
+            "password": "asd"
+        },
+        {
+            "vards": "asd2",
+            "uzvards": "asd",
+            "pkods": "asd",
+            "telnr": "asd",
+            "email": "asd@asd.lvs",
+            "password": "asd"
+        },
+        {
+            "vards": "asd",
+            "uzvards": "asd",
+            "pkods": "asd",
+            "telnr": "asd",
+            "email": "asd",
+            "password": "asdads"
+        },
+        {
+            "vards": "1",
+            "uzvards": "2",
+            "pkods": "3",
+            "telnr": "4",
+            "email": "5",
+            "password": "6",
+            "status": ""
+        },
+        {
+            "vards": "saddas",
+            "uzvards": "sadasd",
+            "pkods": "sdadsa",
+            "telnr": "ssdadsa",
+            "email": "dsadsa",
+            "password": "saddsa",
+            "status": ""
+        },
+        {
+            "vards": "asd",
+            "uzvards": "asd",
+            "pkods": "asaaa",
+            "telnr": "asd",
+            "email": "dd",
+            "password": "asdds",
+            "status": "user"
+        },
+        {
+            "vards": "tavsfaters gejs",
+            "uzvards": "gejs",
+            "pkods": "123",
+            "telnr": "123",
+            "email": "333",
+            "password": "123",
+            "status": "user"
+        },
+        {
+            "vards": "dd",
+            "uzvards": "dddd",
+            "pkods": "ddd",
+            "telnr": "ddd",
+            "email": "ddd",
+            "password": "ddd",
+            "status": "user"
+        }
+    ]
+}
